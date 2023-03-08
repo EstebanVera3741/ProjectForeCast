@@ -1,0 +1,18 @@
+.imagenLogoGlobant {
+    width: 250px;
+}
+
+.contenedorImagen {
+    background: url("../imagen/002-GlobantTeamGrafito.jpg");
+    background-size: cover;
+}
+
+.small {
+    color: black;
+    text-align: center;
+}
+
+.tituloSobreNosotros {
+    color: black;
+    text-align: center;
+}
