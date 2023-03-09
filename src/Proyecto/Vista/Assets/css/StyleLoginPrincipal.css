@@ -16,3 +16,15 @@
     color: black;
     text-align: center;
 }
+
+.btn-Controler{
+    width: 120px;
+    background-color: rgb(172, 252, 120);
+    color: black;
+    border-color: rgb(147, 247, 81);
+}
+
+.btn-Controler:hover {
+    background-color: rgb(105, 202, 39);
+    border-color: rgb(105, 202, 39);
+}
