@@ -30,7 +30,7 @@ function dataCollection(){
     }
 
 
-    fetch('http://localhost:63342/ForeCastGlobant/Vista/Assets/Formulario/formulario.html?', {
+    fetch('http://localhost:63342/ProjectForeCast/Controlador/EnviarDatosJavaScrip', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'

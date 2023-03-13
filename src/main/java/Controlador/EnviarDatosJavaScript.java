@@ -4,15 +4,18 @@ package Controlador;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 
 @Controller
-@RequestMapping("http://localhost:63342/ForeCastGlobant/Vista/Assets/Formulario/formulario.html?")
+@RestController()
 public class EnviarDatosJavaScript {
 
-
-    @GetMapping("/formulario")
-    public String getMessage() {
-        return "Hola desde el controlador";
+    @GetMapping(value = "/")
+    public String holaMundo(){
+        return "hola mundo";
     }
+
+
+    
 }
